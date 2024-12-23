@@ -53,7 +53,7 @@ const ResetPassword = ({ className }: { className?: string }) => {
   };
   return (
     <div className={cn("flex flex-col gap-6 p-2", className)}>
-      <Card className="bg-slate-200 max-w-sm">
+      <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle className="text-2xl font-bold">Change Password</CardTitle>
           <CardDescription>

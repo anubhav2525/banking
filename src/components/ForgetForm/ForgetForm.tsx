@@ -40,7 +40,7 @@ const ForgetForm = ({ className }: { className?: string }) => {
   };
   return (
     <div className={cn("flex flex-col gap-6 p-2", className)}>
-      <Card className="bg-slate-200 ">
+      <Card >
         <CardHeader>
           <CardTitle className="text-2xl font-bold">Forget Password</CardTitle>
           <CardDescription>

@@ -1,14 +1,10 @@
 import SignInForm from "@/components/SignInForm/SignInForm";
 import React from "react";
 
-const SignInPage = () => {
+const SignInPage = async () => {
   return (
-    <div className="h-screen w-full flex items-center justify-center bg-black">
-      <div>
-        <div>
-          <SignInForm />
-        </div>
-      </div>
+    <div>
+      <SignInForm />
     </div>
   );
 };
